@@ -1,0 +1,37 @@
+name: Build
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - develop
+      - hotfix/*
+
+jobs:
+  build:
+    name: Build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    steps:
+      - name: Get the sources
+        uses: actions/checkout@v2
+
+      - name: Install .NET Core SDK
+        uses: actions/setup-dotnet@v1
+
+      - name: Run Cake script
+        run: |
+          echo ::endgroup::
+          echo ::group::".NET Tool Restore"
+          dotnet tool restore
+          echo ::endgroup::
+          dotnet cake
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: report
+          path: report

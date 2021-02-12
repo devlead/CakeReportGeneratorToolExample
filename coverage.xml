@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c7ae7b00-bae0-400f-b465-64dc098d1261" name="matkar@MATKAR-HOME 2021-01-29 00:21:35" runUser="WCOM\matkar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-01-29T00:21:35.4200931+01:00" queuing="2021-01-29T00:21:35.4200937+01:00" start="2021-01-29T00:21:32.6567303+01:00" finish="2021-01-29T00:21:35.4961221+01:00" />
+  <TestSettings name="default" id="cec00a55-2dd7-41f2-a2cc-90426ed35b71">
+    <Deployment runDeploymentRoot="matkar_MATKAR-HOME_2021-01-29_00_21_35" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8e4cc77b-588b-4de3-9fb9-6e1852941d89" testId="b3c3349c-4e19-bee6-2b41-ba8331bbca7e" testName="Cake.Tests.Unit.ProgramTests.The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script(args: [&quot;--noop&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0056372" startTime="2021-01-29T00:21:35.3928343+01:00" endTime="2021-01-29T00:21:35.3928347+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e4cc77b-588b-4de3-9fb9-6e1852941d89" />
+    <UnitTestResult executionId="22f60ccc-3b0d-4fa0-8ab5-fc5f188843e0" testId="c0c99c10-68f7-e4e8-9e62-e920287be3ac" testName="Cake.Tests.Unit.ProgramTests.The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script(args: [&quot;--whatif&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0127574" startTime="2021-01-29T00:21:35.3807193+01:00" endTime="2021-01-29T00:21:35.3807203+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22f60ccc-3b0d-4fa0-8ab5-fc5f188843e0" />
+    <UnitTestResult executionId="06297c73-0630-4bab-a129-1f8d5c0c498b" testId="215b768e-09dd-bdc1-6d3b-fd4b7a2dcc79" testName="Cake.Tests.Unit.Features.VersionFeatureTests.Should_Output_Version_To_Console" computerName="MATKAR-HOME" duration="00:00:00.0040105" startTime="2021-01-29T00:21:35.1417965+01:00" endTime="2021-01-29T00:21:35.1417978+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06297c73-0630-4bab-a129-1f8d5c0c498b" />
+    <UnitTestResult executionId="d9834c3c-f37d-4f81-849c-e6bddf801441" testId="092105d7-671d-3153-8ae6-0aaea0d8ed16" testName="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: DryRun, expected: typeof(Cake.Cli.DryRunScriptHost))" computerName="MATKAR-HOME" duration="00:00:00.0084987" startTime="2021-01-29T00:21:35.4040023+01:00" endTime="2021-01-29T00:21:35.4040037+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9834c3c-f37d-4f81-849c-e6bddf801441" />
+    <UnitTestResult executionId="16d0df10-1b2f-4037-9d58-186370273f84" testId="dd5fd8d4-aafe-54aa-b637-1c54b7ed6410" testName="Cake.Tests.Unit.ProgramTests.The_Info_Option_Should_Call_Info_Feature(args: [&quot;--info&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0031790" startTime="2021-01-29T00:21:35.3973986+01:00" endTime="2021-01-29T00:21:35.3973994+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16d0df10-1b2f-4037-9d58-186370273f84" />
+    <UnitTestResult executionId="7adf04d4-118f-49e7-856b-4eb4e5e00316" testId="9728c42d-8f86-5773-6d31-b5698ffa6d2c" testName="Cake.Tests.Unit.ProgramTests.The_Tree_Option_Should_Show_The_Script_Tree(args: [&quot;--tree&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0009333" startTime="2021-01-29T00:21:35.3610830+01:00" endTime="2021-01-29T00:21:35.3610836+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7adf04d4-118f-49e7-856b-4eb4e5e00316" />
+    <UnitTestResult executionId="dae6981c-02ac-45e7-ae92-ebdd29e68f9a" testId="bd44bd76-69bb-82a2-85f3-5b76a61e37af" testName="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Attach_Debugger_If_Specified" computerName="MATKAR-HOME" duration="00:00:00.2543900" startTime="2021-01-29T00:21:35.3850784+01:00" endTime="2021-01-29T00:21:35.3850801+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dae6981c-02ac-45e7-ae92-ebdd29e68f9a" />
+    <UnitTestResult executionId="60d6497e-2fa8-4e54-96aa-ef7f88191957" testId="82122353-ea91-d6f0-bdf2-bee93fffc872" testName="Cake.Tests.Unit.ProgramTests.Should_Use_Default_Parameters_By_Default" computerName="MATKAR-HOME" duration="00:00:00.2264631" startTime="2021-01-29T00:21:35.3572022+01:00" endTime="2021-01-29T00:21:35.3572032+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60d6497e-2fa8-4e54-96aa-ef7f88191957" />
+    <UnitTestResult executionId="62ee5f75-dc55-46cc-b53f-8716ab9c78d5" testId="e2f67311-d025-2188-e6df-5096d7ca7f6e" testName="Cake.Tests.Unit.ProgramTests.The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script(args: [&quot;--dryrun&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0067819" startTime="2021-01-29T00:21:35.3678935+01:00" endTime="2021-01-29T00:21:35.3678946+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62ee5f75-dc55-46cc-b53f-8716ab9c78d5" />
+    <UnitTestResult executionId="d18d693b-b82a-4008-a374-dacc4330cb12" testId="33996937-272e-afac-2065-b4c09825179f" testName="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: Description, expected: typeof(Cake.Cli.DescriptionScriptHost))" computerName="MATKAR-HOME" duration="00:00:00.0135906" startTime="2021-01-29T00:21:35.4176631+01:00" endTime="2021-01-29T00:21:35.4176646+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d18d693b-b82a-4008-a374-dacc4330cb12" />
+    <UnitTestResult executionId="05c9ed0b-9a5d-4ef0-abf3-0c906c357e7c" testId="a8c1f9b2-78f1-03ee-9299-d530ed01f2f3" testName="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: Tree, expected: typeof(Cake.Cli.TreeScriptHost))" computerName="MATKAR-HOME" duration="00:00:00.0078765" startTime="2021-01-29T00:21:35.4256367+01:00" endTime="2021-01-29T00:21:35.4256381+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05c9ed0b-9a5d-4ef0-abf3-0c906c357e7c" />
+    <UnitTestResult executionId="4323cd22-beb2-4dea-ac0a-4ee371545c10" testId="cb9f958f-a276-decf-ddec-a1b8a598d0e5" testName="Cake.Tests.Unit.ProgramTests.The_Description_Option_Should_Show_Script_Descriptions(args: [&quot;--showdescription&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0018129" startTime="2021-01-29T00:21:35.3929501+01:00" endTime="2021-01-29T00:21:35.3929504+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4323cd22-beb2-4dea-ac0a-4ee371545c10" />
+    <UnitTestResult executionId="6b0ea89c-aa2d-4b5d-af6a-7654c7d4a042" testId="76dde6ae-9f93-6074-fc88-32cae614731d" testName="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Execute_Default_Script_If_Not_Specified" computerName="MATKAR-HOME" duration="00:00:00.0102691" startTime="2021-01-29T00:21:35.3954344+01:00" endTime="2021-01-29T00:21:35.3954353+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b0ea89c-aa2d-4b5d-af6a-7654c7d4a042" />
+    <UnitTestResult executionId="9d959902-712e-41b9-8811-607994142147" testId="4a2b7e8c-b481-c5c7-d1dc-3480f7a1e320" testName="Cake.Tests.Unit.ProgramTests.The_Description_Option_Should_Show_Script_Descriptions(args: [&quot;--description&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0009933" startTime="2021-01-29T00:21:35.3929788+01:00" endTime="2021-01-29T00:21:35.3929789+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d959902-712e-41b9-8811-607994142147" />
+    <UnitTestResult executionId="ff7698ab-2683-41ad-980b-89b29b3ba498" testId="48518ad6-aa84-991f-4fb6-db73bf74d84c" testName="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: Build, expected: typeof(Cake.Cli.BuildScriptHost))" computerName="MATKAR-HOME" duration="00:00:00.0073681" startTime="2021-01-29T00:21:35.4330281+01:00" endTime="2021-01-29T00:21:35.4330294+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff7698ab-2683-41ad-980b-89b29b3ba498" />
+    <UnitTestResult executionId="9c4355d2-bf58-4ee1-98db-1f551edc45a5" testId="999b0b0f-8cf6-5d6e-b844-55f6942a7ec6" testName="Cake.Tests.Unit.ProgramTests.The_Tree_Option_Should_Show_The_Script_Tree(args: [&quot;--showtree&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0028271" startTime="2021-01-29T00:21:35.3601134+01:00" endTime="2021-01-29T00:21:35.3601142+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c4355d2-bf58-4ee1-98db-1f551edc45a5" />
+    <UnitTestResult executionId="7752dd72-dc00-42ff-92c2-82e6f52e608f" testId="3cd4becd-d826-c542-460c-265671e5925f" testName="Cake.Tests.Unit.Features.InfoFeatureTests.Should_Output_Version_To_Console" computerName="MATKAR-HOME" duration="00:00:00.0040644" startTime="2021-01-29T00:21:35.1385608+01:00" endTime="2021-01-29T00:21:35.1386286+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7752dd72-dc00-42ff-92c2-82e6f52e608f" />
+    <UnitTestResult executionId="9b4f1aeb-7156-42d2-8b24-7d597720caae" testId="7d0bcfd6-7ff0-6069-303b-ae7729bb1b8e" testName="Cake.Tests.Unit.ProgramTests.The_Version_Option_Should_Call_Version_Feature(args: [&quot;--version&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0037188" startTime="2021-01-29T00:21:35.3930780+01:00" endTime="2021-01-29T00:21:35.3930786+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b4f1aeb-7156-42d2-8b24-7d597720caae" />
+    <UnitTestResult executionId="f154635a-a2b3-4152-a82f-c0ddd020f4e1" testId="dc63d7bf-ac4b-4217-7746-4d4b4561f767" testName="Cake.Tests.Unit.ProgramTests.The_Version_Option_Should_Call_Version_Feature(args: [&quot;--ver&quot;])" computerName="MATKAR-HOME" duration="00:00:00.0010432" startTime="2021-01-29T00:21:35.3941418+01:00" endTime="2021-01-29T00:21:35.3941425+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f154635a-a2b3-4152-a82f-c0ddd020f4e1" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Attach_Debugger_If_Specified" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="bd44bd76-69bb-82a2-85f3-5b76a61e37af">
+      <Execution id="dae6981c-02ac-45e7-ae92-ebdd29e68f9a" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.BuildFeatureTests" name="Should_Attach_Debugger_If_Specified" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: Description, expected: typeof(Cake.Cli.DescriptionScriptHost))" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="33996937-272e-afac-2065-b4c09825179f">
+      <Execution id="d18d693b-b82a-4008-a374-dacc4330cb12" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.BuildFeatureTests" name="Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_Version_Option_Should_Call_Version_Feature(args: [&quot;--version&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="7d0bcfd6-7ff0-6069-303b-ae7729bb1b8e">
+      <Execution id="9b4f1aeb-7156-42d2-8b24-7d597720caae" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_Version_Option_Should_Call_Version_Feature" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.Features.VersionFeatureTests.Should_Output_Version_To_Console" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="215b768e-09dd-bdc1-6d3b-fd4b7a2dcc79">
+      <Execution id="06297c73-0630-4bab-a129-1f8d5c0c498b" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.VersionFeatureTests" name="Should_Output_Version_To_Console" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: Build, expected: typeof(Cake.Cli.BuildScriptHost))" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="48518ad6-aa84-991f-4fb6-db73bf74d84c">
+      <Execution id="ff7698ab-2683-41ad-980b-89b29b3ba498" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.BuildFeatureTests" name="Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.Should_Use_Default_Parameters_By_Default" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="82122353-ea91-d6f0-bdf2-bee93fffc872">
+      <Execution id="60d6497e-2fa8-4e54-96aa-ef7f88191957" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="Should_Use_Default_Parameters_By_Default" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script(args: [&quot;--noop&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="b3c3349c-4e19-bee6-2b41-ba8331bbca7e">
+      <Execution id="8e4cc77b-588b-4de3-9fb9-6e1852941d89" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script(args: [&quot;--whatif&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="c0c99c10-68f7-e4e8-9e62-e920287be3ac">
+      <Execution id="22f60ccc-3b0d-4fa0-8ab5-fc5f188843e0" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: Tree, expected: typeof(Cake.Cli.TreeScriptHost))" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="a8c1f9b2-78f1-03ee-9299-d530ed01f2f3">
+      <Execution id="05c9ed0b-9a5d-4ef0-abf3-0c906c357e7c" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.BuildFeatureTests" name="Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_Version_Option_Should_Call_Version_Feature(args: [&quot;--ver&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="dc63d7bf-ac4b-4217-7746-4d4b4561f767">
+      <Execution id="f154635a-a2b3-4152-a82f-c0ddd020f4e1" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_Version_Option_Should_Call_Version_Feature" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_Info_Option_Should_Call_Info_Feature(args: [&quot;--info&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="dd5fd8d4-aafe-54aa-b637-1c54b7ed6410">
+      <Execution id="16d0df10-1b2f-4037-9d58-186370273f84" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_Info_Option_Should_Call_Info_Feature" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_Description_Option_Should_Show_Script_Descriptions(args: [&quot;--description&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="4a2b7e8c-b481-c5c7-d1dc-3480f7a1e320">
+      <Execution id="9d959902-712e-41b9-8811-607994142147" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_Description_Option_Should_Show_Script_Descriptions" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_Tree_Option_Should_Show_The_Script_Tree(args: [&quot;--tree&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="9728c42d-8f86-5773-6d31-b5698ffa6d2c">
+      <Execution id="7adf04d4-118f-49e7-856b-4eb4e5e00316" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_Tree_Option_Should_Show_The_Script_Tree" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Execute_Default_Script_If_Not_Specified" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="76dde6ae-9f93-6074-fc88-32cae614731d">
+      <Execution id="6b0ea89c-aa2d-4b5d-af6a-7654c7d4a042" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.BuildFeatureTests" name="Should_Execute_Default_Script_If_Not_Specified" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_Tree_Option_Should_Show_The_Script_Tree(args: [&quot;--showtree&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="999b0b0f-8cf6-5d6e-b844-55f6942a7ec6">
+      <Execution id="9c4355d2-bf58-4ee1-98db-1f551edc45a5" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_Tree_Option_Should_Show_The_Script_Tree" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.Features.BuildFeatureTests.Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds(kind: DryRun, expected: typeof(Cake.Cli.DryRunScriptHost))" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="092105d7-671d-3153-8ae6-0aaea0d8ed16">
+      <Execution id="d9834c3c-f37d-4f81-849c-e6bddf801441" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.BuildFeatureTests" name="Should_Resolve_Correct_Script_Host_For_The_Different_Build_Host_Kinds" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_Description_Option_Should_Show_Script_Descriptions(args: [&quot;--showdescription&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="cb9f958f-a276-decf-ddec-a1b8a598d0e5">
+      <Execution id="4323cd22-beb2-4dea-ac0a-4ee371545c10" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_Description_Option_Should_Show_Script_Descriptions" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.ProgramTests.The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script(args: [&quot;--dryrun&quot;])" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="e2f67311-d025-2188-e6df-5096d7ca7f6e">
+      <Execution id="62ee5f75-dc55-46cc-b53f-8716ab9c78d5" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.ProgramTests" name="The_DryRun_Option_Should_Perform_A_Dry_Run_Of_Script" />
+    </UnitTest>
+    <UnitTest name="Cake.Tests.Unit.Features.InfoFeatureTests.Should_Output_Version_To_Console" storage="c:\temp\dev\gh\devlead\cake\src\cake.tests\bin\release\net5.0\cake.tests.dll" id="3cd4becd-d826-c542-460c-265671e5925f">
+      <Execution id="7752dd72-dc00-42ff-92c2-82e6f52e608f" />
+      <TestMethod codeBase="C:\temp\dev\gh\devlead\cake\src\Cake.Tests\bin\Release\net5.0\Cake.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Cake.Tests.Unit.Features.InfoFeatureTests" name="Should_Output_Version_To_Console" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b3c3349c-4e19-bee6-2b41-ba8331bbca7e" executionId="8e4cc77b-588b-4de3-9fb9-6e1852941d89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0c99c10-68f7-e4e8-9e62-e920287be3ac" executionId="22f60ccc-3b0d-4fa0-8ab5-fc5f188843e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="215b768e-09dd-bdc1-6d3b-fd4b7a2dcc79" executionId="06297c73-0630-4bab-a129-1f8d5c0c498b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="092105d7-671d-3153-8ae6-0aaea0d8ed16" executionId="d9834c3c-f37d-4f81-849c-e6bddf801441" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd5fd8d4-aafe-54aa-b637-1c54b7ed6410" executionId="16d0df10-1b2f-4037-9d58-186370273f84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9728c42d-8f86-5773-6d31-b5698ffa6d2c" executionId="7adf04d4-118f-49e7-856b-4eb4e5e00316" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd44bd76-69bb-82a2-85f3-5b76a61e37af" executionId="dae6981c-02ac-45e7-ae92-ebdd29e68f9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82122353-ea91-d6f0-bdf2-bee93fffc872" executionId="60d6497e-2fa8-4e54-96aa-ef7f88191957" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2f67311-d025-2188-e6df-5096d7ca7f6e" executionId="62ee5f75-dc55-46cc-b53f-8716ab9c78d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33996937-272e-afac-2065-b4c09825179f" executionId="d18d693b-b82a-4008-a374-dacc4330cb12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8c1f9b2-78f1-03ee-9299-d530ed01f2f3" executionId="05c9ed0b-9a5d-4ef0-abf3-0c906c357e7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb9f958f-a276-decf-ddec-a1b8a598d0e5" executionId="4323cd22-beb2-4dea-ac0a-4ee371545c10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76dde6ae-9f93-6074-fc88-32cae614731d" executionId="6b0ea89c-aa2d-4b5d-af6a-7654c7d4a042" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a2b7e8c-b481-c5c7-d1dc-3480f7a1e320" executionId="9d959902-712e-41b9-8811-607994142147" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48518ad6-aa84-991f-4fb6-db73bf74d84c" executionId="ff7698ab-2683-41ad-980b-89b29b3ba498" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="999b0b0f-8cf6-5d6e-b844-55f6942a7ec6" executionId="9c4355d2-bf58-4ee1-98db-1f551edc45a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cd4becd-d826-c542-460c-265671e5925f" executionId="7752dd72-dc00-42ff-92c2-82e6f52e608f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d0bcfd6-7ff0-6069-303b-ae7729bb1b8e" executionId="9b4f1aeb-7156-42d2-8b24-7d597720caae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc63d7bf-ac4b-4217-7746-4d4b4561f767" executionId="f154635a-a2b3-4152-a82f-c0ddd020f4e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.2)&#xD;
+[xUnit.net 00:00:01.49]   Discovering: Cake.Tests&#xD;
+[xUnit.net 00:00:01.54]   Discovered:  Cake.Tests&#xD;
+[xUnit.net 00:00:01.55]   Starting:    Cake.Tests&#xD;
+[xUnit.net 00:00:01.90]   Finished:    Cake.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
