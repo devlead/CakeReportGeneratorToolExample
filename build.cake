@@ -10,4 +10,6 @@ DirectoryPath targetDir = "./report/";
 
 CleanDirectory(targetDir);
 
-ReportGenerator(coveragePath, targetDir);
+ReportGenerator(coveragePath, targetDir, new ReportGeneratorSettings {
+    ArgumentCustomization = args => args.AppendSwitch("-reporttypes", ":", "lcov")
+});
